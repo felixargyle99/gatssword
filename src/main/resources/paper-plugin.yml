@@ -1,0 +1,12 @@
+name: gatssword
+version: '${project.version}'
+main: org.examplecock.gatssword.Gatssword
+api-version: '1.20'
+
+commands:
+  giveItem:
+    description: "Выдает прописанный какиш"
+    usage: "/giveItem"
+    permission: gatssword.command.giveItem
+
+
